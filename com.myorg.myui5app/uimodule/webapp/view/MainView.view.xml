@@ -1,0 +1,20 @@
+<mvc:View
+    controllerName="com.myorg.myui5app.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    |
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <MessagePage id="_IDGenMessagePage1"
+                    showHeader="false"
+                    description="More content to come"
+                    text="Stay tuned!"
+                    icon="sap-icon://home"
+                />
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
